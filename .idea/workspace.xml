@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b06d650-4bc1-4c3d-b985-54563f2d46a7" name="Default Changelist" comment="" />
+    <list default="true" id="4b06d650-4bc1-4c3d-b985-54563f2d46a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/WaterBottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestWaterBottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,7 +32,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1XccMxE4kmGxOytcXpWrmkv2LmR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunDashboard">
@@ -39,17 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCalculator.can_divide">
-    <configuration name="TestCalculator.can_add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCalculator" />
-      <option name="METHOD_NAME" value="can_add" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestWaterBottle.drink_subtracts_ten_from_bottle">
     <configuration name="TestCalculator.can_divide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -60,21 +62,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCalculator.can_multiply" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWaterBottle.assertEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCalculator" />
-      <option name="METHOD_NAME" value="can_multiply" />
+      <option name="MAIN_CLASS_NAME" value="TestWaterBottle" />
+      <option name="METHOD_NAME" value="assertEqual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCalculator.can_subtract" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestWaterBottle.assertEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCalculator" />
-      <option name="METHOD_NAME" value="can_subtract" />
+      <option name="MAIN_CLASS_NAME" value="TestWaterBottle" />
+      <option name="METHOD_NAME" value="assertEquals" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWaterBottle.bottle_has_volume" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWaterBottle" />
+      <option name="METHOD_NAME" value="bottle_has_volume" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWaterBottle.drink_subtracts_ten_from_bottle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWaterBottle" />
+      <option name="METHOD_NAME" value="drink_subtracts_ten_from_bottle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,10 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestWaterBottle.drink_subtracts_ten_from_bottle" />
+        <item itemvalue="JUnit.TestWaterBottle.bottle_has_volume" />
+        <item itemvalue="JUnit.TestWaterBottle.assertEquals" />
+        <item itemvalue="JUnit.TestWaterBottle.assertEqual" />
         <item itemvalue="JUnit.TestCalculator.can_divide" />
-        <item itemvalue="JUnit.TestCalculator.can_multiply" />
-        <item itemvalue="JUnit.TestCalculator.can_subtract" />
-        <item itemvalue="JUnit.TestCalculator.can_add" />
       </list>
     </recent_temporary>
   </component>
@@ -101,5 +124,16 @@
       <updated>1581348778505</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
