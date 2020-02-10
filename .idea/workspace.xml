@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b06d650-4bc1-4c3d-b985-54563f2d46a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/WaterBottle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestWaterBottle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/WaterBottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WaterBottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestWaterBottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestWaterBottle.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,27 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestWaterBottle.drink_subtracts_ten_from_bottle">
-    <configuration name="TestCalculator.can_divide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestCalculator" />
-      <option name="METHOD_NAME" value="can_divide" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestWaterBottle.assertEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="calculator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestWaterBottle" />
-      <option name="METHOD_NAME" value="assertEqual" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestWaterBottle.water_bottle_can_be_filled">
     <configuration name="TestWaterBottle.assertEquals" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="calculator" />
       <option name="PACKAGE_NAME" value="" />
@@ -102,13 +80,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestWaterBottle.water_bottle_can_be_filled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWaterBottle" />
+      <option name="METHOD_NAME" value="water_bottle_can_be_filled" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestWaterBottle.water_bottle_is_zero_when_emptied" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="calculator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestWaterBottle" />
+      <option name="METHOD_NAME" value="water_bottle_is_zero_when_emptied" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestWaterBottle.water_bottle_can_be_filled" />
+        <item itemvalue="JUnit.TestWaterBottle.water_bottle_is_zero_when_emptied" />
         <item itemvalue="JUnit.TestWaterBottle.drink_subtracts_ten_from_bottle" />
         <item itemvalue="JUnit.TestWaterBottle.bottle_has_volume" />
         <item itemvalue="JUnit.TestWaterBottle.assertEquals" />
-        <item itemvalue="JUnit.TestWaterBottle.assertEqual" />
-        <item itemvalue="JUnit.TestCalculator.can_divide" />
       </list>
     </recent_temporary>
   </component>

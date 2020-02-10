@@ -20,7 +20,17 @@ public class TestWaterBottle {
 
     @Test
     public void drink_subtracts_ten_from_bottle(){
-        assertEquals(90, waterBottle.drink()); 
+        assertEquals(90, waterBottle.drink());
+    }
+
+    @Test
+    public void water_bottle_is_zero_when_emptied(){
+        assertEquals(0, waterBottle.empty());
+    }
+
+    @Test
+    public void water_bottle_can_be_filled(){
+        assertEquals(100, waterBottle.fill());
     }
 
 
